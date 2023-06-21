@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&display=swap');
+
+/* CSS Defaults */
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    color: #000;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: 500;
+}
+
+/* Portfolio Wrapper Style */
+
+.portfolio-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.portfolio-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Style for navigation */
+
+header {
+    position: absolute;
+    padding: 0px 15px;
+    left: 0px;
+    right: 0px;
+    z-index: 11;
+    transition: .8s;
+}
+
+header .portfolio-row.header-wrap {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-name a {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hamburger i{
+    font-size: 20px;
+    background-color: rgb(236, 241, 250);
+    color: #01143e;
+    height: 30px;
+    width: 35px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #EEE;
+    display: none;
+}
+
+.portfolio-navbar ul li {
+    display: inline;
+    margin-left: 35px;
+}
+
+.portfolio-navbar ul li a {
+    font-size: 1rem;
+    line-height: 72px;
+    color: #000;
+    font-weight: 300;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase; 
+}
