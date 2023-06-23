@@ -10,6 +10,17 @@
     padding: 0;
 }
 
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f3f3f3;
+}
+
+.main {
+    margin-bottom: auto;
+}
+
 a {
     text-decoration: none;
     outline: none;
