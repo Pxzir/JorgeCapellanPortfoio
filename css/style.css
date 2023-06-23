@@ -250,3 +250,73 @@ header .portfolio-row.header-wrap {
 .welcome-image:hover {
     transform: translateY(-10.5px);
 }
+
+/* Footer Contact */
+
+#contact {
+    background: url('/images/Hcvp.gif') center no-repeat;
+    background-color: #000;
+    text-align: center;
+    padding: 50px 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main-title {
+    -webkit-text-stroke: 1px #FFF;
+    -webkit-text-fill-color: transparent;
+}
+
+.hover-title {
+    color: #FFF;
+    position: absolute;
+    transform: translate3d(0, 100%, 0);
+}
+
+.main-title, .hover-title {
+    transition: .5s cubic-bezier(0.51, 0.57, 0.17, 1);
+}
+
+.text-wrap:hover .main-title {
+    transform: translate3d(0, -100%, 0);
+    transition-delay: 0.1s;
+}
+
+.text-wrap:hover .hover-title {
+    transform: translate3d(0, 0, 0);
+}
+
+.contact-info {
+    margin: 40px 0;
+}
+
+.contact-content {
+    padding: 100px 0;
+
+}
+
+.contact-info span,
+.contact-info a {
+    color: #FFF;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+} 
+
+.contact-info h3 {
+    color: #FFF;
+    cursor: pointer;
+    transition: all 0.3s ease-out 0s;
+}
+
+.social-link li {
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+.social-link li a {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease-out 0s;
+}
+
