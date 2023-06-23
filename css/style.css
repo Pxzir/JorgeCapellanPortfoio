@@ -17,10 +17,6 @@
     background-color: #f3f3f3;
 }
 
-.main {
-    margin-bottom: auto;
-}
-
 a {
     text-decoration: none;
     outline: none;
@@ -74,6 +70,9 @@ header .portfolio-row.header-wrap {
     align-items: center;
 }
 
+.element-header {
+    color: rgb(66, 84, 163);
+}
 .brand-name a {
     font-size: 1.5rem;
     font-weight: 300;
@@ -187,7 +186,7 @@ header .portfolio-row.header-wrap {
     padding: 15px 30px;
     color: #fff;
     font-family: 'Poppins', sans-serif;
-    background: #ff5252;
+    background: #0410af;
     position: relative;
     z-index: 1001;
     overflow: hidden;
@@ -247,7 +246,7 @@ header .portfolio-row.header-wrap {
     position: absolute;
     z-index: -1;
     transition: all 0.7s;
-    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+    background: linear-gradient(to right, #000000, #4f4f4f, #a7a7a7);
 }
 
 .welcome-image:hover::before {
@@ -255,7 +254,7 @@ header .portfolio-row.header-wrap {
     height: 100%;
     opacity: 1;
     border-radius: 0 30% 0 30%;
-    filter: drop-shadow(0 0 30px rgba(255, 74, 23, 0.8));
+    filter: drop-shadow(0 0 30px rgba(0, 0, 0, 0.8));
 }
 
 .welcome-image:hover {
